@@ -1,0 +1,14 @@
+var sub: string = "ReactJs";
+console.log(sub);
+var my_sub: string = "ReactJs With Typescript";
+var wish: string = `Welcome to ${my_sub}`;
+console.log(wish);
+var table_name: string = "employees";
+var salalry: number = 70000;
+var sql_query: string = `SELECT * FROM  ${table_name}  where emp_sal>= ${salalry}`;
+console.log(sql_query);
+var login_table: string = "user_table";
+var user_name: string = "admin";
+var user_password: string = "Vamschakri#143";
+var login_query: string = `SELECT * FROM  ${login_table}   WHERE USER_NAME '${user_name}' AND USER_PASSWORD ${user_password}`;
+console.log(login_query);
